@@ -1,0 +1,3781 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/trace-cps/ontology", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "TRACE-CPS Ontology"
+    },
+    "iri" : "https://w3id.org/trace-cps/ontology",
+    "version" : "0.1.0",
+    "description" : {
+      "en" : "An ontology for representing cyber threats, vulnerabilities, industrial assets, and cross-domain relations in CPS security."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "trace",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/trace-cps/ontology#",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "TRACE-CPS Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "136",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "139",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "146",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "118",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "147",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "149",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "258",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "252",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "234",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/trace-cps/ontology#NetworkLayer",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NetworkLayer",
+      "undefined" : "Network Layer"
+    },
+    "subClasses" : [ "10", "11", "12", "13", "14" ],
+    "comment" : {
+      "undefined" : "The network layer of a CPS architecture, comprising routers, switches, gateways, and communication protocols."
+    },
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Actuator",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Actuator",
+      "undefined" : "Actuator"
+    },
+    "comment" : {
+      "undefined" : "A physical device in the control layer that executes commands from a controller (e.g., motor, valve, pump)."
+    },
+    "id" : "17",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#RTU",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RTU",
+      "undefined" : "RTU"
+    },
+    "comment" : {
+      "undefined" : "A Remote Terminal Unit; a type of controller that monitors field devices and relays data to the supervisory system."
+    },
+    "id" : "20",
+    "superClasses" : [ "21", "22" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CWE",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CWE",
+      "undefined" : "CWE"
+    },
+    "comment" : {
+      "undefined" : "A Common Weakness Enumeration entry describing a type of software or hardware weakness."
+    },
+    "id" : "23",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CNVD",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CNVD",
+      "undefined" : "CNVD"
+    },
+    "comment" : {
+      "undefined" : "A vulnerability entry from the China National Vulnerability Database."
+    },
+    "id" : "35",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Gateway",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gateway",
+      "undefined" : "Gateway"
+    },
+    "comment" : {
+      "undefined" : "A network gateway connecting different network segments within a CPS environment."
+    },
+    "id" : "14",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#EnterpriseMitigation",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnterpriseMitigation",
+      "undefined" : "Enterprise Mitigation"
+    },
+    "comment" : {
+      "undefined" : "A mitigation measure defined in the ATT&CK Enterprise matrix."
+    },
+    "id" : "51",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ICSTactic",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ICSTactic",
+      "undefined" : "ICS Tactic"
+    },
+    "comment" : {
+      "undefined" : "A tactic defined in the ATT&CK ICS matrix."
+    },
+    "id" : "52",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ControllerFVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ControllerFVP",
+      "undefined" : "Controller Firmware Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating a controller with a specific firmware version."
+    },
+    "id" : "70",
+    "superClasses" : [ "71", "1" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ControlLayer",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ControlLayer",
+      "undefined" : "Control Layer"
+    },
+    "subClasses" : [ "73", "74", "75", "21", "17", "70", "76", "77", "78", "79" ],
+    "comment" : {
+      "undefined" : "The control layer of a CPS architecture, comprising controllers, actuators, HMIs, host computers, and related devices."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#MobileTactic",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MobileTactic",
+      "undefined" : "Mobile Tactic"
+    },
+    "comment" : {
+      "undefined" : "A tactic defined in the ATT&CK Mobile matrix."
+    },
+    "id" : "80",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Infrastructure",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Infrastructure",
+      "undefined" : "Infrastructure"
+    },
+    "comment" : {
+      "undefined" : "The technical infrastructure used by threat actors to support their operations (e.g., C2 servers, botnets)."
+    },
+    "id" : "81"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Sensor",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor",
+      "undefined" : "Sensor"
+    },
+    "comment" : {
+      "undefined" : "A physical sensor in the perception layer that measures process variables and transmits data to DAQ devices or controllers."
+    },
+    "id" : "29",
+    "superClasses" : [ "22", "7" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CVE",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CVE",
+      "undefined" : "CVE"
+    },
+    "comment" : {
+      "undefined" : "A Common Vulnerabilities and Exposures entry identifying a publicly known cybersecurity vulnerability."
+    },
+    "id" : "96",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Tactic",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tactic",
+      "undefined" : "Tactic"
+    },
+    "subClasses" : [ "103", "80", "52" ],
+    "comment" : {
+      "undefined" : "A high-level adversarial goal in the ATT&CK framework (e.g., Initial Access, Lateral Movement, Impact)."
+    },
+    "id" : "40",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Vulnerability",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vulnerability",
+      "undefined" : "Vulnerability"
+    },
+    "subClasses" : [ "35", "96" ],
+    "comment" : {
+      "undefined" : "A known security vulnerability in a software or hardware component."
+    },
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CommunicatingEntity",
+      "undefined" : "Communicating Entity"
+    },
+    "subClasses" : [ "29", "20", "49", "79" ],
+    "comment" : {
+      "undefined" : "Abstract parent class for CPS devices that actively initiate communication with controllers or RTUs (DAQ, HostComputer, RTU, Sensor)."
+    },
+    "id" : "22"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#SecurityTeam",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SecurityTeam",
+      "undefined" : "Security Team"
+    },
+    "comment" : {
+      "undefined" : "A defensive security team responsible for monitoring and protecting CPS environments."
+    },
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ActuatorFVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActuatorFVP",
+      "undefined" : "Actuator Firmware Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating an actuator with a specific firmware version."
+    },
+    "id" : "76",
+    "superClasses" : [ "71", "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Weakness",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Weakness",
+      "undefined" : "Weakness"
+    },
+    "subClasses" : [ "23" ],
+    "comment" : {
+      "undefined" : "A software or hardware weakness as defined in the CWE taxonomy."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#OS",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OS",
+      "undefined" : "OS"
+    },
+    "comment" : {
+      "undefined" : "An operating system running on ATT&CK-relevant infrastructure (e.g., Windows, Linux, VxWorks)."
+    },
+    "id" : "91",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#HMI",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HMI",
+      "undefined" : "HMI"
+    },
+    "comment" : {
+      "undefined" : "A Human-Machine Interface providing operators with a graphical view of the industrial process and control capabilities."
+    },
+    "id" : "78",
+    "superClasses" : [ "1" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "96", "4" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ThreatActor",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThreatActor",
+      "undefined" : "Threat Actor"
+    },
+    "comment" : {
+      "undefined" : "An individual, group, or organization that conducts malicious cyber operations against CPS environments."
+    },
+    "id" : "37",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ICSMitigation",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ICSMitigation",
+      "undefined" : "ICS Mitigation"
+    },
+    "comment" : {
+      "undefined" : "A mitigation measure defined in the ATT&CK ICS matrix."
+    },
+    "id" : "83",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CVECVSSVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CVECVSSVP",
+      "undefined" : "CVE CVSS Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating a CVE entry with its CVSS scoring information."
+    },
+    "id" : "133"
+  }, {
+    "instances" : 0,
+    "union" : [ "37", "89" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "135"
+  }, {
+    "instances" : 0,
+    "union" : [ "37", "89" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "136"
+  }, {
+    "instances" : 0,
+    "union" : [ "37", "34", "89", "40" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "29", "79" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "145"
+  }, {
+    "instances" : 0,
+    "union" : [ "37", "89" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "146"
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "1", "7" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "118"
+  }, {
+    "instances" : 0,
+    "union" : [ "21", "17", "22" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "147"
+  }, {
+    "instances" : 0,
+    "union" : [ "114", "6", "1" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "148"
+  }, {
+    "instances" : 0,
+    "union" : [ "37", "89" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Router",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Router",
+      "undefined" : "Router"
+    },
+    "comment" : {
+      "undefined" : "A network router that forwards traffic between network segments in a CPS environment."
+    },
+    "id" : "10",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Result",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Result",
+      "undefined" : "Result"
+    },
+    "comment" : {
+      "undefined" : "The consequence or operational impact caused by a cyberattack on a CPS."
+    },
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Tool",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tool",
+      "undefined" : "Tool"
+    },
+    "comment" : {
+      "undefined" : "A software tool used in offensive or defensive cyber operations."
+    },
+    "id" : "87",
+    "superClasses" : [ "4" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "95", "89" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#HMIVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HMIVP",
+      "undefined" : "HMI Software Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating an HMI with a specific software version."
+    },
+    "id" : "77",
+    "superClasses" : [ "71", "1" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Switch",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Switch",
+      "undefined" : "Switch"
+    },
+    "comment" : {
+      "undefined" : "A network switch that connects devices within the same network segment of a CPS environment."
+    },
+    "id" : "13",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Assigner",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Assigner",
+      "undefined" : "Assigner"
+    },
+    "comment" : {
+      "undefined" : "The organization (e.g., MITRE, NVD) that assigned a CVE identifier."
+    },
+    "id" : "164"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CommunicationProtocol",
+      "undefined" : "Communication Protocol"
+    },
+    "comment" : {
+      "undefined" : "An industrial or network communication protocol used in CPS environments (e.g., Modbus, OPC UA, Profinet, DNP3)."
+    },
+    "id" : "11",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#DAQ",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DAQ",
+      "undefined" : "DAQ"
+    },
+    "comment" : {
+      "undefined" : "A Data Acquisition device that collects measurement data from sensors and transmits it to controllers or host computers."
+    },
+    "id" : "49",
+    "superClasses" : [ "22", "7" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Manufacturer",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "undefined" : "Manufacturer"
+    },
+    "comment" : {
+      "undefined" : "The manufacturer of a CPS device (e.g., Siemens, Schneider Electric, Rockwell Automation)."
+    },
+    "id" : "25"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ICSTechnique",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ICSTechnique",
+      "undefined" : "ICS Technique"
+    },
+    "comment" : {
+      "undefined" : "A technique defined in the ATT&CK ICS matrix."
+    },
+    "id" : "95",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#VersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VersionPair",
+      "undefined" : "Version Pair"
+    },
+    "subClasses" : [ "50", "73", "12", "70", "76", "77", "30" ],
+    "comment" : {
+      "undefined" : "Abstract parent class for pairs associating a device or protocol with a specific firmware or software version."
+    },
+    "id" : "71"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#MobileTechnique",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MobileTechnique",
+      "undefined" : "Mobile Technique"
+    },
+    "comment" : {
+      "undefined" : "A technique defined in the ATT&CK Mobile matrix."
+    },
+    "id" : "100",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Container",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Container",
+      "undefined" : "Container"
+    },
+    "comment" : {
+      "undefined" : "The container record of a CVE entry holding structured vulnerability metadata."
+    },
+    "id" : "163"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#ATT&CK",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ATT&CK",
+      "undefined" : "ATT&CK"
+    },
+    "subClasses" : [ "37", "102", "114", "34", "193", "33", "39", "87", "89", "91", "40", "54" ],
+    "comment" : {
+      "undefined" : "Root class for all MITRE ATT&CK framework concepts, including tactics, techniques, threat actors, campaigns, and mitigations."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#DAQFVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DAQFVP",
+      "undefined" : "DAQ Firmware Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating a DAQ device with a specific firmware version."
+    },
+    "id" : "50",
+    "superClasses" : [ "71", "7" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Software",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Software",
+      "undefined" : "Software"
+    },
+    "comment" : {
+      "undefined" : "A software tool or malware used by threat actors as part of ATT&CK campaigns."
+    },
+    "id" : "102",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Technique",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technique",
+      "undefined" : "Technique"
+    },
+    "subClasses" : [ "95", "98", "100" ],
+    "comment" : {
+      "undefined" : "A specific method or procedure used by an adversary to achieve a tactic."
+    },
+    "id" : "34",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#URL",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "URL",
+      "undefined" : "URL"
+    },
+    "comment" : {
+      "undefined" : "A URL reference associated with an ATT&CK entity."
+    },
+    "id" : "193",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Mitigation",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mitigation",
+      "undefined" : "Mitigation"
+    },
+    "subClasses" : [ "83", "51", "63" ],
+    "comment" : {
+      "undefined" : "An ATT&CK-defined mitigation measure that reduces the effectiveness of an adversary technique."
+    },
+    "id" : "39",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#PerceptionLayer",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PerceptionLayer",
+      "undefined" : "Perception Layer"
+    },
+    "subClasses" : [ "50", "29", "30", "49" ],
+    "comment" : {
+      "undefined" : "The perception layer of a CPS architecture, comprising sensors and data acquisition devices that interact with the physical environment."
+    },
+    "id" : "7"
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "1", "7" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "260",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#HostComputer",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HostComputer",
+      "undefined" : "Host Computer"
+    },
+    "comment" : {
+      "undefined" : "The supervisory host computer in a CPS that issues high-level commands to controllers and hosts SCADA or HMI software."
+    },
+    "id" : "79",
+    "superClasses" : [ "1", "22" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CVEDescription",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CVEDescription",
+      "undefined" : "CVE Description"
+    },
+    "comment" : {
+      "undefined" : "A structured textual description of a CVE entry."
+    },
+    "id" : "252"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#DataSource",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataSource",
+      "undefined" : "Data Source"
+    },
+    "comment" : {
+      "undefined" : "An ATT&CK data source representing a system or artifact that can be used to detect adversary techniques."
+    },
+    "id" : "33",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#CommunicationProtocolVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CommunicationProtocolVP",
+      "undefined" : "Communication Protocol Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating a communication protocol with a specific version."
+    },
+    "id" : "12",
+    "superClasses" : [ "71", "6" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#SensorFVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SensorFVP",
+      "undefined" : "Sensor Firmware Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating a sensor with a specific firmware version."
+    },
+    "id" : "30",
+    "superClasses" : [ "71", "7" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#MobileMitigation",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MobileMitigation",
+      "undefined" : "Mobile Mitigation"
+    },
+    "comment" : {
+      "undefined" : "A mitigation measure defined in the ATT&CK Mobile matrix."
+    },
+    "id" : "63",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#DataComponent",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataComponent",
+      "undefined" : "Data Component"
+    },
+    "comment" : {
+      "undefined" : "A sub-category of a data source used to detect ATT&CK techniques."
+    },
+    "id" : "54",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#EnterpriseTechnique",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnterpriseTechnique",
+      "undefined" : "Enterprise Technique"
+    },
+    "comment" : {
+      "undefined" : "A technique defined in the ATT&CK Enterprise matrix."
+    },
+    "id" : "98",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Purpose",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Purpose",
+      "undefined" : "Purpose"
+    },
+    "comment" : {
+      "undefined" : "The intended objective or target of a cyberattack on a CPS."
+    },
+    "id" : "234"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Controller",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Controller",
+      "undefined" : "Controller"
+    },
+    "subClasses" : [ "20" ],
+    "comment" : {
+      "undefined" : "An industrial controller (e.g., PLC, DCS) that receives commands from the supervisory system and drives actuators. RTU is modelled as a subclass."
+    },
+    "id" : "21",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#RTUFVP",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RTUFVP",
+      "undefined" : "RTU Firmware Version Pair"
+    },
+    "comment" : {
+      "undefined" : "A pair associating an RTU with a specific firmware version."
+    },
+    "id" : "73",
+    "superClasses" : [ "71", "1" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Identity",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Identity",
+      "undefined" : "Identity"
+    },
+    "comment" : {
+      "undefined" : "The parent organization of a security team or threat actor."
+    },
+    "id" : "138"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#EnterpriseTactic",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnterpriseTactic",
+      "undefined" : "Enterprise Tactic"
+    },
+    "comment" : {
+      "undefined" : "A tactic defined in the ATT&CK Enterprise matrix."
+    },
+    "id" : "103",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Asset",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Asset",
+      "undefined" : "Asset"
+    },
+    "comment" : {
+      "undefined" : "An ATT&CK ICS asset representing a technology or system component relevant to industrial environments."
+    },
+    "id" : "114",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Server",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Server",
+      "undefined" : "Server"
+    },
+    "comment" : {
+      "undefined" : "A server providing computing, storage, or application services in the CPS network."
+    },
+    "id" : "74",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#SCADA",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SCADA",
+      "undefined" : "SCADA"
+    },
+    "comment" : {
+      "undefined" : "A Supervisory Control and Data Acquisition system for real-time monitoring and control of industrial processes."
+    },
+    "id" : "75",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#Campaign",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Campaign",
+      "undefined" : "Campaign"
+    },
+    "comment" : {
+      "undefined" : "A coordinated set of malicious activities or attacks attributed to a threat actor over a period of time."
+    },
+    "id" : "89",
+    "superClasses" : [ "4" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "5",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "8",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "15",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "19",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "151",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "152",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "153",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "154",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "159",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "167",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "172",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "199",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "220",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "250",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "251",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "271",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "273",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "274",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "275",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "288",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "291",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "298",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "299",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "300",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "302",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "303",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "309",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "310",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "313",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "314",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "315",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "316",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "317",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "318",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "319",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "320",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "321",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "322",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "323",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "324",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "325",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "326",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "327",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "328",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "329",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "330",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "331",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "332",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "333",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "334",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "335",
+    "type" : "owl:disjointWith"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "9",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "9",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasManufacture",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasManufacture",
+      "undefined" : "has Manufacture"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Relates a control-layer device to its manufacturer."
+    },
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "range" : "7",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "9",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasSensorVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasSensorVersionPair",
+      "undefined" : "has Sensor Version Pair"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "Relates a sensor to its firmware version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "37",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "34",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "37",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "34",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "37",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "37",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "6",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#containsTechnique",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "containsTechnique",
+      "undefined" : "contains Technique"
+    },
+    "domain" : "40",
+    "comment" : {
+      "undefined" : "A tactic contains one or more techniques used to achieve it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasDAQVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasDAQVersionPair",
+      "undefined" : "has DAQ Version Pair"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "49",
+    "comment" : {
+      "undefined" : "Relates a DAQ device to its firmware version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "range" : "37",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "34",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#causesResult",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "causesResult",
+      "undefined" : "causes Result"
+    },
+    "domain" : "57",
+    "comment" : {
+      "undefined" : "A campaign or ICS technique causes an operational consequence on the CPS."
+    },
+    "attributes" : [ "object" ],
+    "id" : "56"
+  }, {
+    "range" : "39",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "40",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "39",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "39",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "7",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "7",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "7",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "7",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasPlatform",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasPlatform",
+      "undefined" : "has Platform"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "The platform or operating environment applicable to an ATT&CK entity (e.g., Windows, Linux, ICS)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "39",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "4",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "4",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "4",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "4",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "4",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "4",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "4",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "34",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "34",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "34",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#targets",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "targets",
+      "undefined" : "targets"
+    },
+    "domain" : "87",
+    "comment" : {
+      "undefined" : "A tool targets or operates on a software or system component."
+    },
+    "attributes" : [ "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasCommunicationProtocolVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasCommunicationProtocolVersionPair",
+      "undefined" : "has Communication Protocol Version Pair"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Relates a communication protocol to its version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasPublishedDate",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "hasPublishedDate",
+      "undefined" : "has Published Date"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "The date on which a CVE was published."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasDescription",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "hasDescription",
+      "undefined" : "has Description"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Textual description of an ATT&CK entity, used to support LLM-based entity alignment, graph fusion, and link prediction."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasRelatedAsset",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "hasRelatedAsset",
+      "undefined" : "has Related Asset"
+    },
+    "domain" : "114",
+    "comment" : {
+      "undefined" : "Relates an ATT&CK asset to another related asset."
+    },
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasActuatorVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "hasActuatorVersionPair",
+      "undefined" : "has Actuator Version Pair"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "Relates an actuator to its firmware version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasControllerVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "hasControllerVersionPair",
+      "undefined" : "has Controller Version Pair"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "Relates a controller to its firmware version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "hasVersionPair",
+      "undefined" : "has Version Pair"
+    },
+    "domain" : "118",
+    "subproperty" : [ "28", "116", "119", "117", "48", "120", "104" ],
+    "comment" : {
+      "undefined" : "Relates a device or protocol to its firmware or software version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasCNVDVulnerability",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasCNVDVulnerability",
+      "undefined" : "has CNVD Vulnerability"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "71",
+    "comment" : {
+      "undefined" : "Relates a device version pair to a CNVD vulnerability entry."
+    },
+    "attributes" : [ "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#sendsDataToDAQ",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "sendsDataToDAQ",
+      "undefined" : "sends Data To DAQ"
+    },
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "A sensor transmits measurement data to a DAQ device."
+    },
+    "attributes" : [ "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasReference",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "hasReference",
+      "undefined" : "has Reference"
+    },
+    "domain" : "122",
+    "comment" : {
+      "undefined" : "A URL or identifier referencing an external source related to an ATT&CK entity or CVE."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasVulnerability",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasVulnerability",
+      "undefined" : "has Vulnerability"
+    },
+    "domain" : "71",
+    "subproperty" : [ "126", "134" ],
+    "comment" : {
+      "undefined" : "Relates a device version pair to a known vulnerability."
+    },
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#worksFor",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "worksFor",
+      "undefined" : "works For"
+    },
+    "domain" : "115",
+    "comment" : {
+      "undefined" : "A security team is affiliated with a parent identity organization."
+    },
+    "attributes" : [ "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasUpdatedDate",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "hasUpdatedDate",
+      "undefined" : "has Updated Date"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "The date on which a CVE was last updated."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "140"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasCVSSBaseScore",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "hasCVSSBaseScore",
+      "undefined" : "has CVSS Base Score"
+    },
+    "domain" : "133",
+    "comment" : {
+      "undefined" : "The CVSS base score of a vulnerability (e.g., 7.5)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "141"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasTitle",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "hasTitle",
+      "undefined" : "has Title"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "The title of a CVE entry."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "144"
+  }, {
+    "range" : "95",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "100",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "100",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "4",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "83",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "63",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "63",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "52",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "80",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "80",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#communicatesWithController",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "communicatesWithController",
+      "undefined" : "communicates With Controller"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "A communicating entity (DAQ, HostComputer, RTU, or Sensor) communicates with a controller."
+    },
+    "attributes" : [ "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#launches",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "launches",
+      "undefined" : "launches"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "A threat actor initiates and conducts a campaign."
+    },
+    "attributes" : [ "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasContainer",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "163",
+    "label" : {
+      "IRI-based" : "hasContainer",
+      "undefined" : "has Container"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "Relates a CVE to its container record holding structured metadata."
+    },
+    "attributes" : [ "object" ],
+    "id" : "162"
+  }, {
+    "range" : "4",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "2",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "29",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasDataComponent",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasDataComponent",
+      "undefined" : "has Data Component"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "Relates a data source to one of its data components."
+    },
+    "attributes" : [ "object" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasContainerName",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "hasContainerName",
+      "undefined" : "has Container Name"
+    },
+    "domain" : "163",
+    "comment" : {
+      "undefined" : "The name of the container record associated with a CVE entry."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "170"
+  }, {
+    "range" : "10",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "14",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasMitigation",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasMitigation",
+      "undefined" : "has Mitigation"
+    },
+    "domain" : "34",
+    "comment" : {
+      "undefined" : "Relates a technique to a recommended mitigation measure."
+    },
+    "attributes" : [ "object" ],
+    "id" : "173"
+  }, {
+    "range" : "71",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasAssigner",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "hasAssigner",
+      "undefined" : "has Assigner"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "Relates a CVE to the organization that assigned it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "175"
+  }, {
+    "range" : "71",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "13",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "71",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "29",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "71",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "49",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "71",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "71",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "4",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "79",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "4",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "78",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "4",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "75",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "4",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "10",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "4",
+    "domain" : "193",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "71",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#targetsAsset",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "targetsAsset",
+      "undefined" : "targets Asset"
+    },
+    "domain" : "95",
+    "comment" : {
+      "undefined" : "An ICS technique targets a CPS asset, control-layer device, or network component."
+    },
+    "attributes" : [ "object" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasATTCKID",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "hasATTCKID",
+      "undefined" : "has ATT&CK ID"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "The ATT&CK identifier of an entity (e.g., T1234, TA0001, G0001)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasRTUVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "hasRTUVersionPair",
+      "undefined" : "has RTU Version Pair"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Relates an RTU to its firmware version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "120"
+  }, {
+    "range" : "49",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "21",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasType",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "hasType",
+      "undefined" : "has Type"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "The functional type of an actuator (e.g., motor, valve, pump)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "199"
+  }, {
+    "range" : "14",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "40",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "29",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "9",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "10",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "9",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "71",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "22",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "13",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "22",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "11",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "22",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "22",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "14",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "2",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "49",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "71",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "13",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "40",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "40",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasCVEVulnerability",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "hasCVEVulnerability",
+      "undefined" : "has CVE Vulnerability"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "71",
+    "comment" : {
+      "undefined" : "Relates a device version pair to a CVE vulnerability entry."
+    },
+    "attributes" : [ "object" ],
+    "id" : "134"
+  }, {
+    "range" : "10",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "71",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#utilizes",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "utilizes",
+      "undefined" : "utilizes"
+    },
+    "domain" : "139",
+    "comment" : {
+      "undefined" : "A threat actor, campaign, technique, or tactic employs a specific tool."
+    },
+    "attributes" : [ "object" ],
+    "id" : "222"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#supports",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "supports",
+      "undefined" : "supports"
+    },
+    "domain" : "147",
+    "comment" : {
+      "undefined" : "A CPS device supports a communication protocol."
+    },
+    "attributes" : [ "object" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasAnotherName",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "hasAnotherName",
+      "undefined" : "has Another Name"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "An alias or alternative name used for a threat actor."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "224"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasHMIVersionPair",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "hasHMIVersionPair",
+      "undefined" : "has HMI Version Pair"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "78",
+    "comment" : {
+      "undefined" : "Relates an HMI to its software version pair."
+    },
+    "attributes" : [ "object" ],
+    "id" : "119"
+  }, {
+    "range" : "71",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "1",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "13",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "29",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "1",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "10",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "1",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasPurpose",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "hasPurpose",
+      "undefined" : "has Purpose"
+    },
+    "domain" : "146",
+    "comment" : {
+      "undefined" : "The intended objective or goal pursued by a campaign or threat actor."
+    },
+    "attributes" : [ "object" ],
+    "id" : "233"
+  }, {
+    "range" : "10",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "1",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "79",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "1",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "29",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "1",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "75",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "1",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "6",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasCVSSVectorString",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "hasCVSSVectorString",
+      "undefined" : "has CVSS Vector String"
+    },
+    "domain" : "133",
+    "comment" : {
+      "undefined" : "The CVSS vector string encoding the scoring metrics (e.g., CVSS:3.1/AV:N/AC:L/...)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "244"
+  }, {
+    "range" : "1",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "78",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "1",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "71",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#communicatesWithDAQ",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "communicatesWithDAQ",
+      "undefined" : "communicates With DAQ"
+    },
+    "domain" : "79",
+    "comment" : {
+      "undefined" : "A host computer communicates with a DAQ device."
+    },
+    "attributes" : [ "object" ],
+    "id" : "249"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasRelatedCWE",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasRelatedCWE",
+      "undefined" : "has Related CWE"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "Relates a CVE to the CWE weakness category it belongs to."
+    },
+    "attributes" : [ "object" ],
+    "id" : "250"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasLanguage",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "hasLanguage",
+      "undefined" : "has Language"
+    },
+    "domain" : "252",
+    "comment" : {
+      "undefined" : "The language code of a CVE description (e.g., en, zh)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "251"
+  }, {
+    "range" : "13",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "10",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "79",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "29",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "75",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "range" : "71",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "6",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "13",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "263"
+  }, {
+    "range" : "6",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "78",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "6",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "14",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "6",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "70",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "30",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#usesInfrastructure",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "usesInfrastructure",
+      "undefined" : "uses Infrastructure"
+    },
+    "domain" : "149",
+    "comment" : {
+      "undefined" : "A threat actor or campaign leverages technical infrastructure to support operations."
+    },
+    "attributes" : [ "object" ],
+    "id" : "271"
+  }, {
+    "range" : "77",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "272"
+  }, {
+    "range" : "50",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "range" : "73",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#communicatesWithRTU",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "communicatesWithRTU",
+      "undefined" : "communicates With RTU"
+    },
+    "domain" : "145",
+    "comment" : {
+      "undefined" : "A host computer or sensor communicates with an RTU."
+    },
+    "attributes" : [ "object" ],
+    "id" : "275"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasDetection",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasDetection",
+      "undefined" : "has Detection"
+    },
+    "domain" : "34",
+    "comment" : {
+      "undefined" : "Relates a technique to the data components that can be used to detect it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "276"
+  }, {
+    "range" : "77",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "range" : "50",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "278"
+  }, {
+    "range" : "71",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "range" : "71",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "280"
+  }, {
+    "range" : "70",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "12",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "13",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "29",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "range" : "13",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "range" : "71",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "286"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasVersion",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "260",
+    "label" : {
+      "IRI-based" : "hasVersion",
+      "undefined" : "has Version"
+    },
+    "domain" : "258",
+    "comment" : {
+      "undefined" : "The software version or hardware firmware version of a device or protocol."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "287"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasAssignerName",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "hasAssignerName",
+      "undefined" : "has Assigner Name"
+    },
+    "domain" : "164",
+    "comment" : {
+      "undefined" : "The name of the organization that assigned a CVE identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "288"
+  }, {
+    "range" : "13",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "29",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "71",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "range" : "13",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "range" : "29",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "75",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "71",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "33",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasValue",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "hasValue",
+      "undefined" : "has Value"
+    },
+    "domain" : "252",
+    "comment" : {
+      "undefined" : "The textual content of a CVE description."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "297"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#isHostedOnHostComputer",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "isHostedOnHostComputer",
+      "undefined" : "is Hosted On Host Computer"
+    },
+    "domain" : "78",
+    "comment" : {
+      "undefined" : "Indicates that an HMI application is hosted on a host computer."
+    },
+    "attributes" : [ "object" ],
+    "id" : "298"
+  }, {
+    "range" : "37",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "range" : "40",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  }, {
+    "range" : "39",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "301"
+  }, {
+    "range" : "39",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "302"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasCVEDescription",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "252",
+    "label" : {
+      "IRI-based" : "hasCVEDescription",
+      "undefined" : "has CVE Description"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "Relates a CVE entry to its structured description."
+    },
+    "attributes" : [ "object" ],
+    "id" : "303"
+  }, {
+    "range" : "34",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "40",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "range" : "79",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "75",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "307"
+  }, {
+    "range" : "78",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasRejectedDate",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasRejectedDate",
+      "undefined" : "has Rejected Date"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "The date on which a CVE was rejected."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "309"
+  }, {
+    "range" : "79",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "range" : "75",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "311"
+  }, {
+    "range" : "79",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "312"
+  }, {
+    "range" : "75",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "range" : "75",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "314"
+  }, {
+    "range" : "21",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "range" : "78",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "316"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#controls",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "controls",
+      "undefined" : "controls"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "A controller drives an actuator to perform physical actions."
+    },
+    "attributes" : [ "object" ],
+    "id" : "317"
+  }, {
+    "range" : "96",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "318"
+  }, {
+    "range" : "30",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "33",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "320"
+  }, {
+    "range" : "54",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  }, {
+    "range" : "30",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "322"
+  }, {
+    "range" : "73",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "30",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "range" : "73",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "325"
+  }, {
+    "range" : "77",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "326"
+  }, {
+    "range" : "30",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "327"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#usesTechnique",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "usesTechnique",
+      "undefined" : "uses Technique"
+    },
+    "domain" : "136",
+    "comment" : {
+      "undefined" : "A threat actor or campaign employs a specific ATT&CK technique."
+    },
+    "attributes" : [ "object" ],
+    "id" : "328"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#usesSoftware",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "usesSoftware",
+      "undefined" : "uses Software"
+    },
+    "domain" : "135",
+    "comment" : {
+      "undefined" : "A threat actor or campaign uses a specific software tool or malware."
+    },
+    "attributes" : [ "object" ],
+    "id" : "329"
+  }, {
+    "iri" : "https://w3id.org/trace-cps/ontology#hasCVSSBaseSeverity",
+    "baseIri" : "https://w3id.org/trace-cps/ontology",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "hasCVSSBaseSeverity",
+      "undefined" : "has CVSS Base Severity"
+    },
+    "domain" : "133",
+    "comment" : {
+      "undefined" : "The CVSS base severity rating (LOW, MEDIUM, HIGH, or CRITICAL)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "330"
+  }, {
+    "range" : "73",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "331"
+  }, {
+    "range" : "30",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "332"
+  }, {
+    "range" : "73",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "333"
+  }, {
+    "range" : "77",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "334"
+  }, {
+    "range" : "50",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "335"
+  } ]
+}

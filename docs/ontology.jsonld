@@ -1,0 +1,1913 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ICSTechnique"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Actuator"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Controller"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Asset"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Tactic"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#HostComputer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Sensor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Actuator"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Controller"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#DAQ"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Gateway"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#HMI"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#HostComputer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Router"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#SCADA"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Sensor"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Switch"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Actuator"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Controller"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#HMI"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#HostComputer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#SCADA"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#ActuatorFVP"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocolVP"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ControllerFVP"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#DAQFVP"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#HMIVP"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#RTUFVP"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#SensorFVP"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#DataComponent"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#DataSource"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Mitigation"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Tactic"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Gateway"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Router"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Switch"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Vulnerability"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#Weakness"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#EnterpriseMitigation"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ICSMitigation"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#MobileMitigation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#EnterpriseTactic"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ICSTactic"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#MobileTactic"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/trace-cps/ontology#EnterpriseTechnique"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#ICSTechnique"
+    }, {
+      "@id" : "https://w3id.org/trace-cps/ontology#MobileTechnique"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "An ontology for representing cyber threats, vulnerabilities, industrial assets, and cross-domain relations in CPS security."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "TRACE-CPS Ontology"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "trace"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/trace-cps/ontology#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology/0.1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.1.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Root class for all MITRE ATT&CK framework concepts, including tactics, techniques, threat actors, campaigns, and mitigations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Actuator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A physical device in the control layer that executes commands from a controller (e.g., motor, valve, pump)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Actuator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ActuatorFVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating an actuator with a specific firmware version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Actuator Firmware Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Asset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An ATT&CK ICS asset representing a technology or system component relevant to industrial environments."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Assigner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The organization (e.g., MITRE, NVD) that assigned a CVE identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Assigner"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CNVD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A vulnerability entry from the China National Vulnerability Database."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CNVD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Vulnerability"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CVE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Common Vulnerabilities and Exposures entry identifying a publicly known cybersecurity vulnerability."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Vulnerability"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CVECVSSVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating a CVE entry with its CVSS scoring information."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CVE CVSS Version Pair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CVEDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A structured textual description of a CVE entry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CVE Description"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CWE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Common Weakness Enumeration entry describing a type of software or hardware weakness."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CWE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Weakness"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Campaign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A coordinated set of malicious activities or attacks attributed to a threat actor over a period of time."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Campaign"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Abstract parent class for CPS devices that actively initiate communication with controllers or RTUs (DAQ, HostComputer, RTU, Sensor)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Communicating Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An industrial or network communication protocol used in CPS environments (e.g., Modbus, OPC UA, Profinet, DNP3)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Communication Protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocolVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating a communication protocol with a specific version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Communication Protocol Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Container",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The container record of a CVE entry holding structured vulnerability metadata."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Container"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The control layer of a CPS architecture, comprising controllers, actuators, HMIs, host computers, and related devices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Control Layer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Controller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An industrial controller (e.g., PLC, DCS) that receives commands from the supervisory system and drives actuators. RTU is modelled as a subclass."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Controller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ControllerFVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating a controller with a specific firmware version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Controller Firmware Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#DAQ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Data Acquisition device that collects measurement data from sensors and transmits it to controllers or host computers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DAQ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Sensor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#DAQFVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating a DAQ device with a specific firmware version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DAQ Firmware Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#DataComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A sub-category of a data source used to detect ATT&CK techniques."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#DataSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An ATT&CK data source representing a system or artifact that can be used to detect adversary techniques."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#EnterpriseMitigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A mitigation measure defined in the ATT&CK Enterprise matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Enterprise Mitigation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Mitigation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#EnterpriseTactic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A tactic defined in the ATT&CK Enterprise matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Enterprise Tactic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Tactic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#EnterpriseTechnique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A technique defined in the ATT&CK Enterprise matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Enterprise Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Gateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A network gateway connecting different network segments within a CPS environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gateway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#HMI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Human-Machine Interface providing operators with a graphical view of the industrial process and control capabilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "HMI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#HMIVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating an HMI with a specific software version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "HMI Software Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#HostComputer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The supervisory host computer in a CPS that issues high-level commands to controllers and hosts SCADA or HMI software."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Host Computer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ICSMitigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A mitigation measure defined in the ATT&CK ICS matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ICS Mitigation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Mitigation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ICSTactic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A tactic defined in the ATT&CK ICS matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ICS Tactic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Tactic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ICSTechnique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A technique defined in the ATT&CK ICS matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ICS Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Identity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The parent organization of a security team or threat actor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Identity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Infrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The technical infrastructure used by threat actors to support their operations (e.g., C2 servers, botnets)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Infrastructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The manufacturer of a CPS device (e.g., Siemens, Schneider Electric, Rockwell Automation)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Manufacturer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Mitigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An ATT&CK-defined mitigation measure that reduces the effectiveness of an adversary technique."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mitigation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#MobileMitigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A mitigation measure defined in the ATT&CK Mobile matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mobile Mitigation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Mitigation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#MobileTactic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A tactic defined in the ATT&CK Mobile matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mobile Tactic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Tactic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#MobileTechnique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A technique defined in the ATT&CK Mobile matrix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mobile Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The network layer of a CPS architecture, comprising routers, switches, gateways, and communication protocols."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Network Layer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#OS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An operating system running on ATT&CK-relevant infrastructure (e.g., Windows, Linux, VxWorks)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The perception layer of a CPS architecture, comprising sensors and data acquisition devices that interact with the physical environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Perception Layer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Purpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The intended objective or target of a cyberattack on a CPS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Purpose"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#RTU",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Remote Terminal Unit; a type of controller that monitors field devices and relays data to the supervisory system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "RTU"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#Controller"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#RTUFVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating an RTU with a specific firmware version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "RTU Firmware Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Result",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The consequence or operational impact caused by a cyberattack on a CPS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Result"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Router",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A network router that forwards traffic between network segments in a CPS environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Router"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#SCADA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Supervisory Control and Data Acquisition system for real-time monitoring and control of industrial processes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SCADA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#SecurityTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A defensive security team responsible for monitoring and protecting CPS environments."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Security Team"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Sensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A physical sensor in the perception layer that measures process variables and transmits data to DAQ devices or controllers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#SensorFVP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pair associating a sensor with a specific firmware version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sensor Firmware Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#PerceptionLayer"
+  }, {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Server",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A server providing computing, storage, or application services in the CPS network."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Server"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Software",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A software tool or malware used by threat actors as part of ATT&CK campaigns."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Software"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Switch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A network switch that connects devices within the same network segment of a CPS environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Switch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#NetworkLayer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Tactic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A high-level adversarial goal in the ATT&CK framework (e.g., Initial Access, Lateral Movement, Impact)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tactic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Technique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specific method or procedure used by an adversary to achieve a tactic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An individual, group, or organization that conducts malicious cyber operations against CPS environments."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Threat Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Tool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A software tool used in offensive or defensive cyber operations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#URL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A URL reference associated with an ATT&CK entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "URL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#VersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Abstract parent class for pairs associating a device or protocol with a specific firmware or software version."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Version Pair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Vulnerability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A known security vulnerability in a software or hardware component."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vulnerability"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#Weakness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A software or hardware weakness as defined in the CWE taxonomy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Weakness"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#causesResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A campaign or ICS technique causes an operational consequence on the CPS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "causes Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Result"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#communicatesWithController",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A communicating entity (DAQ, HostComputer, RTU, or Sensor) communicates with a controller."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicatingEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "communicates With Controller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Controller"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#communicatesWithDAQ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A host computer communicates with a DAQ device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#HostComputer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "communicates With DAQ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#DAQ"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#communicatesWithRTU",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A host computer or sensor communicates with an RTU."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "communicates With RTU"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#RTU"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#containsTechnique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A tactic contains one or more techniques used to achieve it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Tactic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "contains Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#controls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A controller drives an actuator to perform physical actions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Controller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "controls"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Actuator"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasATTCKID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The ATT&CK identifier of an entity (e.g., T1234, TA0001, G0001)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has ATT&CK ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasActuatorVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an actuator to its firmware version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Actuator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Actuator Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ActuatorFVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasAnotherName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An alias or alternative name used for a threat actor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Another Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasAssigner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a CVE to the organization that assigned it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Assigner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Assigner"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasAssignerName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name of the organization that assigned a CVE identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Assigner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Assigner Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasCNVDVulnerability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a device version pair to a CNVD vulnerability entry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has CNVD Vulnerability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CNVD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVulnerability"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasCVEDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a CVE entry to its structured description."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has CVE Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVEDescription"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasCVEVulnerability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a device version pair to a CVE vulnerability entry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has CVE Vulnerability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVulnerability"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasCVSSBaseScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The CVSS base score of a vulnerability (e.g., 7.5)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVECVSSVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has CVSS Base Score"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasCVSSBaseSeverity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The CVSS base severity rating (LOW, MEDIUM, HIGH, or CRITICAL)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVECVSSVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has CVSS Base Severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasCVSSVectorString",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The CVSS vector string encoding the scoring metrics (e.g., CVSS:3.1/AV:N/AC:L/...)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVECVSSVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has CVSS Vector String"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasCommunicationProtocolVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a communication protocol to its version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Communication Protocol Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocolVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasContainer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a CVE to its container record holding structured metadata."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Container"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Container"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasContainerName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name of the container record associated with a CVE entry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Container"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Container Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasControllerVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a controller to its firmware version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Controller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Controller Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControllerFVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasDAQVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a DAQ device to its firmware version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#DAQ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has DAQ Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#DAQFVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasDataComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a data source to one of its data components."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#DataSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Data Component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#DataComponent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Textual description of an ATT&CK entity, used to support LLM-based entity alignment, graph fusion, and link prediction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasDetection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a technique to the data components that can be used to detect it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Detection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#DataComponent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasHMIVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an HMI to its software version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#HMI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has HMI Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#HMIVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The language code of a CVE description (e.g., en, zh)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVEDescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasManufacture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a control-layer device to its manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ControlLayer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Manufacture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Manufacturer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasMitigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a technique to a recommended mitigation measure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Mitigation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Mitigation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasPlatform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The platform or operating environment applicable to an ATT&CK entity (e.g., Windows, Linux, ICS)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ATT&CK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Platform"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasPublishedDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date on which a CVE was published."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Published Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The intended objective or goal pursued by a campaign or threat actor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Purpose"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasRTUVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an RTU to its firmware version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#RTU"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has RTU Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#RTUFVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A URL or identifier referencing an external source related to an ATT&CK entity or CVE."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid36"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasRejectedDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date on which a CVE was rejected."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Rejected Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasRelatedAsset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an ATT&CK asset to another related asset."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Related Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Asset"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasRelatedCWE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a CVE to the CWE weakness category it belongs to."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Related CWE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CWE"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasSensorVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a sensor to its firmware version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Sensor Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#SensorFVP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The title of a CVE entry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The functional type of an actuator (e.g., motor, valve, pump)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Actuator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasUpdatedDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date on which a CVE was last updated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Updated Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The textual content of a CVE description."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CVEDescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The software version or hardware firmware version of a device or protocol."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid39"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasVersionPair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a device or protocol to its firmware or software version pair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Version Pair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#hasVulnerability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a device version pair to a known vulnerability."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#VersionPair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Vulnerability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Vulnerability"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#isHostedOnHostComputer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates that an HMI application is hosted on a host computer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#HMI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is Hosted On Host Computer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#HostComputer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#launches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A threat actor initiates and conducts a campaign."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ThreatActor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "launches"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Campaign"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#sendsDataToDAQ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A sensor transmits measurement data to a DAQ device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "sends Data To DAQ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#DAQ"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#supports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A CPS device supports a communication protocol."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "supports"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#CommunicationProtocol"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#targets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A tool targets or operates on a software or system component."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "targets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Software"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#targetsAsset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An ICS technique targets a CPS asset, control-layer device, or network component."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#ICSTechnique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "targets Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#usesInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A threat actor or campaign leverages technical infrastructure to support operations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "uses Infrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Infrastructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#usesSoftware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A threat actor or campaign uses a specific software tool or malware."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "uses Software"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Software"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#usesTechnique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A threat actor or campaign employs a specific ATT&CK technique."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "uses Technique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Technique"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#utilizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A threat actor, campaign, technique, or tactic employs a specific tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "utilizes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Tool"
+  } ]
+}, {
+  "@id" : "https://w3id.org/trace-cps/ontology#worksFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A security team is affiliated with a parent identity organization."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#SecurityTeam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "works For"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/trace-cps/ontology#Identity"
+  } ]
+} ]
