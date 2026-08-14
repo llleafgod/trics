@@ -1,19 +1,19 @@
-@prefix : <https://w3id.org/trace-cps/ontology#> .
+@prefix : <https://w3id.org/trics/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/trace-cps/ontology#> .
+@base <https://w3id.org/trics/ontology#> .
 
-<https://w3id.org/trace-cps/ontology> rdf:type owl:Ontology ;
-                                       owl:versionIRI <https://w3id.org/trace-cps/ontology/0.1.0> ;
-                                       <http://purl.org/dc/terms/description> "An ontology for representing cyber threats, vulnerabilities, industrial assets, and cross-domain relations in CPS security."@en ;
-                                       <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-                                       <http://purl.org/dc/terms/title> "TRACE-CPS Ontology"@en ;
-                                       <http://purl.org/vocab/vann/preferredNamespacePrefix> "trace" ;
-                                       <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/trace-cps/ontology#" ;
-                                       owl:versionInfo "0.1.0" .
+<https://w3id.org/trics/ontology> rdf:type owl:Ontology ;
+                                   owl:versionIRI <https://w3id.org/trics/ontology/0.2.0> ;
+                                   <http://purl.org/dc/terms/description> "An ontology for representing cyber threats, vulnerabilities, industrial assets, and cross-domain relations in ICS security."@en ;
+                                   <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                   <http://purl.org/dc/terms/title> "TrICS Ontology"@en ;
+                                   <http://purl.org/vocab/vann/preferredNamespacePrefix> "trics" ;
+                                   <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/trics/ontology#" ;
+                                   owl:versionInfo "0.2.0" .
 
 #################################################################
 #    Annotation properties
@@ -43,7 +43,7 @@
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/trace-cps/ontology#causesResult
+###  https://w3id.org/trics/ontology#causesResult
 :causesResult rdf:type owl:ObjectProperty ;
               rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( :Campaign
@@ -51,11 +51,11 @@
                                         )
                           ] ;
               rdfs:range :Result ;
-              rdfs:comment "A campaign or ICS technique causes an operational consequence on the CPS." ;
+              rdfs:comment "A campaign or ICS technique causes an operational consequence on the ICS." ;
               rdfs:label "causes Result" .
 
 
-###  https://w3id.org/trace-cps/ontology#communicatesWithController
+###  https://w3id.org/trics/ontology#communicatesWithController
 :communicatesWithController rdf:type owl:ObjectProperty ;
                             rdfs:domain :CommunicatingEntity ;
                             rdfs:range :Controller ;
@@ -63,7 +63,7 @@
                             rdfs:label "communicates With Controller" .
 
 
-###  https://w3id.org/trace-cps/ontology#communicatesWithDAQ
+###  https://w3id.org/trics/ontology#communicatesWithDAQ
 :communicatesWithDAQ rdf:type owl:ObjectProperty ;
                      rdfs:domain :HostComputer ;
                      rdfs:range :DAQ ;
@@ -71,7 +71,7 @@
                      rdfs:label "communicates With DAQ" .
 
 
-###  https://w3id.org/trace-cps/ontology#communicatesWithRTU
+###  https://w3id.org/trics/ontology#communicatesWithRTU
 :communicatesWithRTU rdf:type owl:ObjectProperty ;
                      rdfs:domain [ rdf:type owl:Class ;
                                    owl:unionOf ( :HostComputer
@@ -83,7 +83,7 @@
                      rdfs:label "communicates With RTU" .
 
 
-###  https://w3id.org/trace-cps/ontology#containsTechnique
+###  https://w3id.org/trics/ontology#containsTechnique
 :containsTechnique rdf:type owl:ObjectProperty ;
                    rdfs:domain :Tactic ;
                    rdfs:range :Technique ;
@@ -91,7 +91,7 @@
                    rdfs:label "contains Technique" .
 
 
-###  https://w3id.org/trace-cps/ontology#controls
+###  https://w3id.org/trics/ontology#controls
 :controls rdf:type owl:ObjectProperty ;
           rdfs:domain :Controller ;
           rdfs:range :Actuator ;
@@ -99,7 +99,7 @@
           rdfs:label "controls" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasActuatorVersionPair
+###  https://w3id.org/trics/ontology#hasActuatorVersionPair
 :hasActuatorVersionPair rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf :hasVersionPair ;
                         rdfs:domain :Actuator ;
@@ -108,7 +108,7 @@
                         rdfs:label "has Actuator Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasAssigner
+###  https://w3id.org/trics/ontology#hasAssigner
 :hasAssigner rdf:type owl:ObjectProperty ;
              rdfs:domain :CVE ;
              rdfs:range :Assigner ;
@@ -116,7 +116,7 @@
              rdfs:label "has Assigner" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasCNVDVulnerability
+###  https://w3id.org/trics/ontology#hasCNVDVulnerability
 :hasCNVDVulnerability rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf :hasVulnerability ;
                       rdfs:domain :VersionPair ;
@@ -125,7 +125,7 @@
                       rdfs:label "has CNVD Vulnerability" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasCVEDescription
+###  https://w3id.org/trics/ontology#hasCVEDescription
 :hasCVEDescription rdf:type owl:ObjectProperty ;
                    rdfs:domain :CVE ;
                    rdfs:range :CVEDescription ;
@@ -133,7 +133,7 @@
                    rdfs:label "has CVE Description" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasCVEVulnerability
+###  https://w3id.org/trics/ontology#hasCVEVulnerability
 :hasCVEVulnerability rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf :hasVulnerability ;
                      rdfs:domain :VersionPair ;
@@ -142,7 +142,7 @@
                      rdfs:label "has CVE Vulnerability" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasCommunicationProtocolVersionPair
+###  https://w3id.org/trics/ontology#hasCommunicationProtocolVersionPair
 :hasCommunicationProtocolVersionPair rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf :hasVersionPair ;
                                      rdfs:domain :CommunicationProtocol ;
@@ -151,7 +151,7 @@
                                      rdfs:label "has Communication Protocol Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasContainer
+###  https://w3id.org/trics/ontology#hasContainer
 :hasContainer rdf:type owl:ObjectProperty ;
               rdfs:domain :CVE ;
               rdfs:range :Container ;
@@ -159,7 +159,7 @@
               rdfs:label "has Container" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasControllerVersionPair
+###  https://w3id.org/trics/ontology#hasControllerVersionPair
 :hasControllerVersionPair rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf :hasVersionPair ;
                           rdfs:domain :Controller ;
@@ -168,7 +168,7 @@
                           rdfs:label "has Controller Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasDAQVersionPair
+###  https://w3id.org/trics/ontology#hasDAQVersionPair
 :hasDAQVersionPair rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :hasVersionPair ;
                    rdfs:domain :DAQ ;
@@ -177,7 +177,7 @@
                    rdfs:label "has DAQ Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasDataComponent
+###  https://w3id.org/trics/ontology#hasDataComponent
 :hasDataComponent rdf:type owl:ObjectProperty ;
                   rdfs:domain :DataSource ;
                   rdfs:range :DataComponent ;
@@ -185,7 +185,7 @@
                   rdfs:label "has Data Component" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasDetection
+###  https://w3id.org/trics/ontology#hasDetection
 :hasDetection rdf:type owl:ObjectProperty ;
               rdfs:domain :Technique ;
               rdfs:range :DataComponent ;
@@ -193,7 +193,7 @@
               rdfs:label "has Detection" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasHMIVersionPair
+###  https://w3id.org/trics/ontology#hasHMIVersionPair
 :hasHMIVersionPair rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :hasVersionPair ;
                    rdfs:domain :HMI ;
@@ -202,7 +202,7 @@
                    rdfs:label "has HMI Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasManufacture
+###  https://w3id.org/trics/ontology#hasManufacture
 :hasManufacture rdf:type owl:ObjectProperty ;
                 rdfs:domain :ControlLayer ;
                 rdfs:range :Manufacturer ;
@@ -210,7 +210,7 @@
                 rdfs:label "has Manufacture" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasMitigation
+###  https://w3id.org/trics/ontology#hasMitigation
 :hasMitigation rdf:type owl:ObjectProperty ;
                rdfs:domain :Technique ;
                rdfs:range :Mitigation ;
@@ -218,7 +218,7 @@
                rdfs:label "has Mitigation" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasPurpose
+###  https://w3id.org/trics/ontology#hasPurpose
 :hasPurpose rdf:type owl:ObjectProperty ;
             rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( :Campaign
@@ -230,7 +230,7 @@
             rdfs:label "has Purpose" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasRTUVersionPair
+###  https://w3id.org/trics/ontology#hasRTUVersionPair
 :hasRTUVersionPair rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :hasVersionPair ;
                    rdfs:domain :RTU ;
@@ -239,7 +239,7 @@
                    rdfs:label "has RTU Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasRelatedAsset
+###  https://w3id.org/trics/ontology#hasRelatedAsset
 :hasRelatedAsset rdf:type owl:ObjectProperty ,
                           owl:SymmetricProperty ;
                  rdfs:domain :Asset ;
@@ -248,7 +248,7 @@
                  rdfs:label "has Related Asset" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasRelatedCWE
+###  https://w3id.org/trics/ontology#hasRelatedCWE
 :hasRelatedCWE rdf:type owl:ObjectProperty ;
                rdfs:domain :CVE ;
                rdfs:range :CWE ;
@@ -256,7 +256,7 @@
                rdfs:label "has Related CWE" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasSensorVersionPair
+###  https://w3id.org/trics/ontology#hasSensorVersionPair
 :hasSensorVersionPair rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf :hasVersionPair ;
                       rdfs:domain :Sensor ;
@@ -265,7 +265,7 @@
                       rdfs:label "has Sensor Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasVersionPair
+###  https://w3id.org/trics/ontology#hasVersionPair
 :hasVersionPair rdf:type owl:ObjectProperty ;
                 rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( :CommunicationProtocol
@@ -278,7 +278,7 @@
                 rdfs:label "has Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasVulnerability
+###  https://w3id.org/trics/ontology#hasVulnerability
 :hasVulnerability rdf:type owl:ObjectProperty ;
                   rdfs:domain :VersionPair ;
                   rdfs:range :Vulnerability ;
@@ -286,7 +286,7 @@
                   rdfs:label "has Vulnerability" .
 
 
-###  https://w3id.org/trace-cps/ontology#isHostedOnHostComputer
+###  https://w3id.org/trics/ontology#isHostedOnHostComputer
 :isHostedOnHostComputer rdf:type owl:ObjectProperty ;
                         rdfs:domain :HMI ;
                         rdfs:range :HostComputer ;
@@ -294,7 +294,7 @@
                         rdfs:label "is Hosted On Host Computer" .
 
 
-###  https://w3id.org/trace-cps/ontology#launches
+###  https://w3id.org/trics/ontology#launches
 :launches rdf:type owl:ObjectProperty ;
           rdfs:domain :ThreatActor ;
           rdfs:range :Campaign ;
@@ -302,7 +302,7 @@
           rdfs:label "launches" .
 
 
-###  https://w3id.org/trace-cps/ontology#sendsDataToDAQ
+###  https://w3id.org/trics/ontology#sendsDataToDAQ
 :sendsDataToDAQ rdf:type owl:ObjectProperty ;
                 rdfs:domain :Sensor ;
                 rdfs:range :DAQ ;
@@ -310,7 +310,7 @@
                 rdfs:label "sends Data To DAQ" .
 
 
-###  https://w3id.org/trace-cps/ontology#supports
+###  https://w3id.org/trics/ontology#supports
 :supports rdf:type owl:ObjectProperty ;
           rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( :Actuator
@@ -319,11 +319,11 @@
                                     )
                       ] ;
           rdfs:range :CommunicationProtocol ;
-          rdfs:comment "A CPS device supports a communication protocol." ;
+          rdfs:comment "A ICS device supports a communication protocol." ;
           rdfs:label "supports" .
 
 
-###  https://w3id.org/trace-cps/ontology#targets
+###  https://w3id.org/trics/ontology#targets
 :targets rdf:type owl:ObjectProperty ;
          rdfs:domain :Tool ;
          rdfs:range :Software ;
@@ -331,7 +331,7 @@
          rdfs:label "targets" .
 
 
-###  https://w3id.org/trace-cps/ontology#targetsAsset
+###  https://w3id.org/trics/ontology#targetsAsset
 :targetsAsset rdf:type owl:ObjectProperty ;
               rdfs:domain :ICSTechnique ;
               rdfs:range [ rdf:type owl:Class ;
@@ -340,11 +340,11 @@
                                          :NetworkLayer
                                        )
                          ] ;
-              rdfs:comment "An ICS technique targets a CPS asset, control-layer device, or network component." ;
+              rdfs:comment "An ICS technique targets a ICS asset, control-layer device, or network component." ;
               rdfs:label "targets Asset" .
 
 
-###  https://w3id.org/trace-cps/ontology#usesInfrastructure
+###  https://w3id.org/trics/ontology#usesInfrastructure
 :usesInfrastructure rdf:type owl:ObjectProperty ;
                     rdfs:domain [ rdf:type owl:Class ;
                                   owl:unionOf ( :Campaign
@@ -356,7 +356,7 @@
                     rdfs:label "uses Infrastructure" .
 
 
-###  https://w3id.org/trace-cps/ontology#usesSoftware
+###  https://w3id.org/trics/ontology#usesSoftware
 :usesSoftware rdf:type owl:ObjectProperty ;
               rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( :Campaign
@@ -368,7 +368,7 @@
               rdfs:label "uses Software" .
 
 
-###  https://w3id.org/trace-cps/ontology#usesTechnique
+###  https://w3id.org/trics/ontology#usesTechnique
 :usesTechnique rdf:type owl:ObjectProperty ;
                rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( :Campaign
@@ -380,7 +380,7 @@
                rdfs:label "uses Technique" .
 
 
-###  https://w3id.org/trace-cps/ontology#utilizes
+###  https://w3id.org/trics/ontology#utilizes
 :utilizes rdf:type owl:ObjectProperty ;
           rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( :Campaign
@@ -394,7 +394,7 @@
           rdfs:label "utilizes" .
 
 
-###  https://w3id.org/trace-cps/ontology#worksFor
+###  https://w3id.org/trics/ontology#worksFor
 :worksFor rdf:type owl:ObjectProperty ;
           rdfs:domain :SecurityTeam ;
           rdfs:range :Identity ;
@@ -406,15 +406,15 @@
 #    Data properties
 #################################################################
 
-###  https://w3id.org/trace-cps/ontology#hasATTCKID
+###  https://w3id.org/trics/ontology#hasATTCKID
 :hasATTCKID rdf:type owl:DatatypeProperty ;
-            rdfs:domain <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+            rdfs:domain <https://w3id.org/trics/ontology#ATT&CK> ;
             rdfs:range xsd:string ;
             rdfs:comment "The ATT&CK identifier of an entity (e.g., T1234, TA0001, G0001)." ;
             rdfs:label "has ATT&CK ID" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasAnotherName
+###  https://w3id.org/trics/ontology#hasAnotherName
 :hasAnotherName rdf:type owl:DatatypeProperty ;
                 rdfs:domain :ThreatActor ;
                 rdfs:range xsd:string ;
@@ -422,7 +422,7 @@
                 rdfs:label "has Another Name" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasAssignerName
+###  https://w3id.org/trics/ontology#hasAssignerName
 :hasAssignerName rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Assigner ;
                  rdfs:range xsd:string ;
@@ -430,7 +430,7 @@
                  rdfs:label "has Assigner Name" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasCVSSBaseScore
+###  https://w3id.org/trics/ontology#hasCVSSBaseScore
 :hasCVSSBaseScore rdf:type owl:DatatypeProperty ;
                   rdfs:domain :CVECVSSVP ;
                   rdfs:range xsd:string ;
@@ -438,7 +438,7 @@
                   rdfs:label "has CVSS Base Score" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasCVSSBaseSeverity
+###  https://w3id.org/trics/ontology#hasCVSSBaseSeverity
 :hasCVSSBaseSeverity rdf:type owl:DatatypeProperty ;
                      rdfs:domain :CVECVSSVP ;
                      rdfs:range xsd:string ;
@@ -446,7 +446,7 @@
                      rdfs:label "has CVSS Base Severity" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasCVSSVectorString
+###  https://w3id.org/trics/ontology#hasCVSSVectorString
 :hasCVSSVectorString rdf:type owl:DatatypeProperty ;
                      rdfs:domain :CVECVSSVP ;
                      rdfs:range xsd:string ;
@@ -454,7 +454,7 @@
                      rdfs:label "has CVSS Vector String" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasContainerName
+###  https://w3id.org/trics/ontology#hasContainerName
 :hasContainerName rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Container ;
                   rdfs:range xsd:string ;
@@ -462,15 +462,15 @@
                   rdfs:label "has Container Name" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasDescription
+###  https://w3id.org/trics/ontology#hasDescription
 :hasDescription rdf:type owl:DatatypeProperty ;
-                rdfs:domain <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+                rdfs:domain <https://w3id.org/trics/ontology#ATT&CK> ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Textual description of an ATT&CK entity, used to support LLM-based entity alignment, graph fusion, and link prediction." ;
                 rdfs:label "has Description" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasLanguage
+###  https://w3id.org/trics/ontology#hasLanguage
 :hasLanguage rdf:type owl:DatatypeProperty ;
              rdfs:domain :CVEDescription ;
              rdfs:range xsd:string ;
@@ -478,15 +478,15 @@
              rdfs:label "has Language" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasPlatform
+###  https://w3id.org/trics/ontology#hasPlatform
 :hasPlatform rdf:type owl:DatatypeProperty ;
-             rdfs:domain <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+             rdfs:domain <https://w3id.org/trics/ontology#ATT&CK> ;
              rdfs:range xsd:string ;
              rdfs:comment "The platform or operating environment applicable to an ATT&CK entity (e.g., Windows, Linux, ICS)." ;
              rdfs:label "has Platform" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasPublishedDate
+###  https://w3id.org/trics/ontology#hasPublishedDate
 :hasPublishedDate rdf:type owl:DatatypeProperty ;
                   rdfs:domain :CVE ;
                   rdfs:range xsd:string ;
@@ -494,11 +494,11 @@
                   rdfs:label "has Published Date" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasReference
+###  https://w3id.org/trics/ontology#hasReference
 :hasReference rdf:type owl:DatatypeProperty ;
               rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( :CVE
-                                          <https://w3id.org/trace-cps/ontology#ATT&CK>
+                                          <https://w3id.org/trics/ontology#ATT&CK>
                                         )
                           ] ;
               rdfs:range xsd:string ;
@@ -506,7 +506,7 @@
               rdfs:label "has Reference" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasRejectedDate
+###  https://w3id.org/trics/ontology#hasRejectedDate
 :hasRejectedDate rdf:type owl:DatatypeProperty ;
                  rdfs:domain :CVE ;
                  rdfs:range xsd:string ;
@@ -514,7 +514,7 @@
                  rdfs:label "has Rejected Date" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasTitle
+###  https://w3id.org/trics/ontology#hasTitle
 :hasTitle rdf:type owl:DatatypeProperty ;
           rdfs:domain :CVE ;
           rdfs:range xsd:string ;
@@ -522,7 +522,7 @@
           rdfs:label "has Title" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasType
+###  https://w3id.org/trics/ontology#hasType
 :hasType rdf:type owl:DatatypeProperty ;
          rdfs:domain :Actuator ;
          rdfs:range xsd:string ;
@@ -530,7 +530,7 @@
          rdfs:label "has Type" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasUpdatedDate
+###  https://w3id.org/trics/ontology#hasUpdatedDate
 :hasUpdatedDate rdf:type owl:DatatypeProperty ;
                 rdfs:domain :CVE ;
                 rdfs:range xsd:string ;
@@ -538,7 +538,7 @@
                 rdfs:label "has Updated Date" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasValue
+###  https://w3id.org/trics/ontology#hasValue
 :hasValue rdf:type owl:DatatypeProperty ;
           rdfs:domain :CVEDescription ;
           rdfs:range xsd:string ;
@@ -546,7 +546,7 @@
           rdfs:label "has Value" .
 
 
-###  https://w3id.org/trace-cps/ontology#hasVersion
+###  https://w3id.org/trics/ontology#hasVersion
 :hasVersion rdf:type owl:DatatypeProperty ;
             rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( :CommunicationProtocol
@@ -563,14 +563,14 @@
 #    Classes
 #################################################################
 
-###  https://w3id.org/trace-cps/ontology#Actuator
+###  https://w3id.org/trics/ontology#Actuator
 :Actuator rdf:type owl:Class ;
           rdfs:subClassOf :ControlLayer ;
           rdfs:comment "A physical device in the control layer that executes commands from a controller (e.g., motor, valve, pump)." ;
           rdfs:label "Actuator" .
 
 
-###  https://w3id.org/trace-cps/ontology#ActuatorFVP
+###  https://w3id.org/trics/ontology#ActuatorFVP
 :ActuatorFVP rdf:type owl:Class ;
              rdfs:subClassOf :ControlLayer ,
                              :VersionPair ;
@@ -578,20 +578,20 @@
              rdfs:label "Actuator Firmware Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#Asset
+###  https://w3id.org/trics/ontology#Asset
 :Asset rdf:type owl:Class ;
-       rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+       rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
        rdfs:comment "An ATT&CK ICS asset representing a technology or system component relevant to industrial environments." ;
        rdfs:label "Asset" .
 
 
-###  https://w3id.org/trace-cps/ontology#Assigner
+###  https://w3id.org/trics/ontology#Assigner
 :Assigner rdf:type owl:Class ;
           rdfs:comment "The organization (e.g., MITRE, NVD) that assigned a CVE identifier." ;
           rdfs:label "Assigner" .
 
 
-###  https://w3id.org/trace-cps/ontology#CNVD
+###  https://w3id.org/trics/ontology#CNVD
 :CNVD rdf:type owl:Class ;
       rdfs:subClassOf :Vulnerability ;
       owl:disjointWith :CVE ;
@@ -599,53 +599,53 @@
       rdfs:label "CNVD" .
 
 
-###  https://w3id.org/trace-cps/ontology#CVE
+###  https://w3id.org/trics/ontology#CVE
 :CVE rdf:type owl:Class ;
      rdfs:subClassOf :Vulnerability ;
      rdfs:comment "A Common Vulnerabilities and Exposures entry identifying a publicly known cybersecurity vulnerability." ;
      rdfs:label "CVE" .
 
 
-###  https://w3id.org/trace-cps/ontology#CVECVSSVP
+###  https://w3id.org/trics/ontology#CVECVSSVP
 :CVECVSSVP rdf:type owl:Class ;
            rdfs:comment "A pair associating a CVE entry with its CVSS scoring information." ;
            rdfs:label "CVE CVSS Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#CVEDescription
+###  https://w3id.org/trics/ontology#CVEDescription
 :CVEDescription rdf:type owl:Class ;
                 rdfs:comment "A structured textual description of a CVE entry." ;
                 rdfs:label "CVE Description" .
 
 
-###  https://w3id.org/trace-cps/ontology#CWE
+###  https://w3id.org/trics/ontology#CWE
 :CWE rdf:type owl:Class ;
      rdfs:subClassOf :Weakness ;
      rdfs:comment "A Common Weakness Enumeration entry describing a type of software or hardware weakness." ;
      rdfs:label "CWE" .
 
 
-###  https://w3id.org/trace-cps/ontology#Campaign
+###  https://w3id.org/trics/ontology#Campaign
 :Campaign rdf:type owl:Class ;
-          rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+          rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
           rdfs:comment "A coordinated set of malicious activities or attacks attributed to a threat actor over a period of time." ;
           rdfs:label "Campaign" .
 
 
-###  https://w3id.org/trace-cps/ontology#CommunicatingEntity
+###  https://w3id.org/trics/ontology#CommunicatingEntity
 :CommunicatingEntity rdf:type owl:Class ;
-                     rdfs:comment "Abstract parent class for CPS devices that actively initiate communication with controllers or RTUs (DAQ, HostComputer, RTU, Sensor)." ;
+                     rdfs:comment "Abstract parent class for ICS devices that actively initiate communication with controllers or RTUs (DAQ, HostComputer, RTU, Sensor)." ;
                      rdfs:label "Communicating Entity" .
 
 
-###  https://w3id.org/trace-cps/ontology#CommunicationProtocol
+###  https://w3id.org/trics/ontology#CommunicationProtocol
 :CommunicationProtocol rdf:type owl:Class ;
                        rdfs:subClassOf :NetworkLayer ;
-                       rdfs:comment "An industrial or network communication protocol used in CPS environments (e.g., Modbus, OPC UA, Profinet, DNP3)." ;
+                       rdfs:comment "An industrial or network communication protocol used in ICS environments (e.g., Modbus, OPC UA, Profinet, DNP3)." ;
                        rdfs:label "Communication Protocol" .
 
 
-###  https://w3id.org/trace-cps/ontology#CommunicationProtocolVP
+###  https://w3id.org/trics/ontology#CommunicationProtocolVP
 :CommunicationProtocolVP rdf:type owl:Class ;
                          rdfs:subClassOf :NetworkLayer ,
                                          :VersionPair ;
@@ -653,26 +653,26 @@
                          rdfs:label "Communication Protocol Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#Container
+###  https://w3id.org/trics/ontology#Container
 :Container rdf:type owl:Class ;
            rdfs:comment "The container record of a CVE entry holding structured vulnerability metadata." ;
            rdfs:label "Container" .
 
 
-###  https://w3id.org/trace-cps/ontology#ControlLayer
+###  https://w3id.org/trics/ontology#ControlLayer
 :ControlLayer rdf:type owl:Class ;
-              rdfs:comment "The control layer of a CPS architecture, comprising controllers, actuators, HMIs, host computers, and related devices." ;
+              rdfs:comment "The control layer of a ICS architecture, comprising controllers, actuators, HMIs, host computers, and related devices." ;
               rdfs:label "Control Layer" .
 
 
-###  https://w3id.org/trace-cps/ontology#Controller
+###  https://w3id.org/trics/ontology#Controller
 :Controller rdf:type owl:Class ;
             rdfs:subClassOf :ControlLayer ;
             rdfs:comment "An industrial controller (e.g., PLC, DCS) that receives commands from the supervisory system and drives actuators. RTU is modelled as a subclass." ;
             rdfs:label "Controller" .
 
 
-###  https://w3id.org/trace-cps/ontology#ControllerFVP
+###  https://w3id.org/trics/ontology#ControllerFVP
 :ControllerFVP rdf:type owl:Class ;
                rdfs:subClassOf :ControlLayer ,
                                :VersionPair ;
@@ -680,7 +680,7 @@
                rdfs:label "Controller Firmware Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#DAQ
+###  https://w3id.org/trics/ontology#DAQ
 :DAQ rdf:type owl:Class ;
      rdfs:subClassOf :CommunicatingEntity ,
                      :PerceptionLayer ;
@@ -689,7 +689,7 @@
      rdfs:label "DAQ" .
 
 
-###  https://w3id.org/trace-cps/ontology#DAQFVP
+###  https://w3id.org/trics/ontology#DAQFVP
 :DAQFVP rdf:type owl:Class ;
         rdfs:subClassOf :PerceptionLayer ,
                         :VersionPair ;
@@ -697,56 +697,56 @@
         rdfs:label "DAQ Firmware Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#DataComponent
+###  https://w3id.org/trics/ontology#DataComponent
 :DataComponent rdf:type owl:Class ;
-               rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+               rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
                rdfs:comment "A sub-category of a data source used to detect ATT&CK techniques." ;
                rdfs:label "Data Component" .
 
 
-###  https://w3id.org/trace-cps/ontology#DataSource
+###  https://w3id.org/trics/ontology#DataSource
 :DataSource rdf:type owl:Class ;
-            rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+            rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
             rdfs:comment "An ATT&CK data source representing a system or artifact that can be used to detect adversary techniques." ;
             rdfs:label "Data Source" .
 
 
-###  https://w3id.org/trace-cps/ontology#EnterpriseMitigation
+###  https://w3id.org/trics/ontology#EnterpriseMitigation
 :EnterpriseMitigation rdf:type owl:Class ;
                       rdfs:subClassOf :Mitigation ;
                       rdfs:comment "A mitigation measure defined in the ATT&CK Enterprise matrix." ;
                       rdfs:label "Enterprise Mitigation" .
 
 
-###  https://w3id.org/trace-cps/ontology#EnterpriseTactic
+###  https://w3id.org/trics/ontology#EnterpriseTactic
 :EnterpriseTactic rdf:type owl:Class ;
                   rdfs:subClassOf :Tactic ;
                   rdfs:comment "A tactic defined in the ATT&CK Enterprise matrix." ;
                   rdfs:label "Enterprise Tactic" .
 
 
-###  https://w3id.org/trace-cps/ontology#EnterpriseTechnique
+###  https://w3id.org/trics/ontology#EnterpriseTechnique
 :EnterpriseTechnique rdf:type owl:Class ;
                      rdfs:subClassOf :Technique ;
                      rdfs:comment "A technique defined in the ATT&CK Enterprise matrix." ;
                      rdfs:label "Enterprise Technique" .
 
 
-###  https://w3id.org/trace-cps/ontology#Gateway
+###  https://w3id.org/trics/ontology#Gateway
 :Gateway rdf:type owl:Class ;
          rdfs:subClassOf :NetworkLayer ;
-         rdfs:comment "A network gateway connecting different network segments within a CPS environment." ;
+         rdfs:comment "A network gateway connecting different network segments within a ICS environment." ;
          rdfs:label "Gateway" .
 
 
-###  https://w3id.org/trace-cps/ontology#HMI
+###  https://w3id.org/trics/ontology#HMI
 :HMI rdf:type owl:Class ;
      rdfs:subClassOf :ControlLayer ;
      rdfs:comment "A Human-Machine Interface providing operators with a graphical view of the industrial process and control capabilities." ;
      rdfs:label "HMI" .
 
 
-###  https://w3id.org/trace-cps/ontology#HMIVP
+###  https://w3id.org/trics/ontology#HMIVP
 :HMIVP rdf:type owl:Class ;
        rdfs:subClassOf :ControlLayer ,
                        :VersionPair ;
@@ -754,107 +754,107 @@
        rdfs:label "HMI Software Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#HostComputer
+###  https://w3id.org/trics/ontology#HostComputer
 :HostComputer rdf:type owl:Class ;
               rdfs:subClassOf :CommunicatingEntity ,
                               :ControlLayer ;
-              rdfs:comment "The supervisory host computer in a CPS that issues high-level commands to controllers and hosts SCADA or HMI software." ;
+              rdfs:comment "The supervisory host computer in a ICS that issues high-level commands to controllers and hosts SCADA or HMI software." ;
               rdfs:label "Host Computer" .
 
 
-###  https://w3id.org/trace-cps/ontology#ICSMitigation
+###  https://w3id.org/trics/ontology#ICSMitigation
 :ICSMitigation rdf:type owl:Class ;
                rdfs:subClassOf :Mitigation ;
                rdfs:comment "A mitigation measure defined in the ATT&CK ICS matrix." ;
                rdfs:label "ICS Mitigation" .
 
 
-###  https://w3id.org/trace-cps/ontology#ICSTactic
+###  https://w3id.org/trics/ontology#ICSTactic
 :ICSTactic rdf:type owl:Class ;
            rdfs:subClassOf :Tactic ;
            rdfs:comment "A tactic defined in the ATT&CK ICS matrix." ;
            rdfs:label "ICS Tactic" .
 
 
-###  https://w3id.org/trace-cps/ontology#ICSTechnique
+###  https://w3id.org/trics/ontology#ICSTechnique
 :ICSTechnique rdf:type owl:Class ;
               rdfs:subClassOf :Technique ;
               rdfs:comment "A technique defined in the ATT&CK ICS matrix." ;
               rdfs:label "ICS Technique" .
 
 
-###  https://w3id.org/trace-cps/ontology#Identity
+###  https://w3id.org/trics/ontology#Identity
 :Identity rdf:type owl:Class ;
           rdfs:comment "The parent organization of a security team or threat actor." ;
           rdfs:label "Identity" .
 
 
-###  https://w3id.org/trace-cps/ontology#Infrastructure
+###  https://w3id.org/trics/ontology#Infrastructure
 :Infrastructure rdf:type owl:Class ;
                 rdfs:comment "The technical infrastructure used by threat actors to support their operations (e.g., C2 servers, botnets)." ;
                 rdfs:label "Infrastructure" .
 
 
-###  https://w3id.org/trace-cps/ontology#Manufacturer
+###  https://w3id.org/trics/ontology#Manufacturer
 :Manufacturer rdf:type owl:Class ;
-              rdfs:comment "The manufacturer of a CPS device (e.g., Siemens, Schneider Electric, Rockwell Automation)." ;
+              rdfs:comment "The manufacturer of a ICS device (e.g., Siemens, Schneider Electric, Rockwell Automation)." ;
               rdfs:label "Manufacturer" .
 
 
-###  https://w3id.org/trace-cps/ontology#Mitigation
+###  https://w3id.org/trics/ontology#Mitigation
 :Mitigation rdf:type owl:Class ;
-            rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+            rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
             rdfs:comment "An ATT&CK-defined mitigation measure that reduces the effectiveness of an adversary technique." ;
             rdfs:label "Mitigation" .
 
 
-###  https://w3id.org/trace-cps/ontology#MobileMitigation
+###  https://w3id.org/trics/ontology#MobileMitigation
 :MobileMitigation rdf:type owl:Class ;
                   rdfs:subClassOf :Mitigation ;
                   rdfs:comment "A mitigation measure defined in the ATT&CK Mobile matrix." ;
                   rdfs:label "Mobile Mitigation" .
 
 
-###  https://w3id.org/trace-cps/ontology#MobileTactic
+###  https://w3id.org/trics/ontology#MobileTactic
 :MobileTactic rdf:type owl:Class ;
               rdfs:subClassOf :Tactic ;
               rdfs:comment "A tactic defined in the ATT&CK Mobile matrix." ;
               rdfs:label "Mobile Tactic" .
 
 
-###  https://w3id.org/trace-cps/ontology#MobileTechnique
+###  https://w3id.org/trics/ontology#MobileTechnique
 :MobileTechnique rdf:type owl:Class ;
                  rdfs:subClassOf :Technique ;
                  rdfs:comment "A technique defined in the ATT&CK Mobile matrix." ;
                  rdfs:label "Mobile Technique" .
 
 
-###  https://w3id.org/trace-cps/ontology#NetworkLayer
+###  https://w3id.org/trics/ontology#NetworkLayer
 :NetworkLayer rdf:type owl:Class ;
-              rdfs:comment "The network layer of a CPS architecture, comprising routers, switches, gateways, and communication protocols." ;
+              rdfs:comment "The network layer of a ICS architecture, comprising routers, switches, gateways, and communication protocols." ;
               rdfs:label "Network Layer" .
 
 
-###  https://w3id.org/trace-cps/ontology#OS
+###  https://w3id.org/trics/ontology#OS
 :OS rdf:type owl:Class ;
-    rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+    rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
     rdfs:comment "An operating system running on ATT&CK-relevant infrastructure (e.g., Windows, Linux, VxWorks)." ;
     rdfs:label "OS" .
 
 
-###  https://w3id.org/trace-cps/ontology#PerceptionLayer
+###  https://w3id.org/trics/ontology#PerceptionLayer
 :PerceptionLayer rdf:type owl:Class ;
-                 rdfs:comment "The perception layer of a CPS architecture, comprising sensors and data acquisition devices that interact with the physical environment." ;
+                 rdfs:comment "The perception layer of a ICS architecture, comprising sensors and data acquisition devices that interact with the physical environment." ;
                  rdfs:label "Perception Layer" .
 
 
-###  https://w3id.org/trace-cps/ontology#Purpose
+###  https://w3id.org/trics/ontology#Purpose
 :Purpose rdf:type owl:Class ;
-         rdfs:comment "The intended objective or target of a cyberattack on a CPS." ;
+         rdfs:comment "The intended objective or target of a cyberattack on a ICS." ;
          rdfs:label "Purpose" .
 
 
-###  https://w3id.org/trace-cps/ontology#RTU
+###  https://w3id.org/trics/ontology#RTU
 :RTU rdf:type owl:Class ;
      rdfs:subClassOf :CommunicatingEntity ,
                      :Controller ;
@@ -862,7 +862,7 @@
      rdfs:label "RTU" .
 
 
-###  https://w3id.org/trace-cps/ontology#RTUFVP
+###  https://w3id.org/trics/ontology#RTUFVP
 :RTUFVP rdf:type owl:Class ;
         rdfs:subClassOf :ControlLayer ,
                         :VersionPair ;
@@ -870,33 +870,33 @@
         rdfs:label "RTU Firmware Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#Result
+###  https://w3id.org/trics/ontology#Result
 :Result rdf:type owl:Class ;
-        rdfs:comment "The consequence or operational impact caused by a cyberattack on a CPS." ;
+        rdfs:comment "The consequence or operational impact caused by a cyberattack on a ICS." ;
         rdfs:label "Result" .
 
 
-###  https://w3id.org/trace-cps/ontology#Router
+###  https://w3id.org/trics/ontology#Router
 :Router rdf:type owl:Class ;
         rdfs:subClassOf :NetworkLayer ;
-        rdfs:comment "A network router that forwards traffic between network segments in a CPS environment." ;
+        rdfs:comment "A network router that forwards traffic between network segments in a ICS environment." ;
         rdfs:label "Router" .
 
 
-###  https://w3id.org/trace-cps/ontology#SCADA
+###  https://w3id.org/trics/ontology#SCADA
 :SCADA rdf:type owl:Class ;
        rdfs:subClassOf :ControlLayer ;
        rdfs:comment "A Supervisory Control and Data Acquisition system for real-time monitoring and control of industrial processes." ;
        rdfs:label "SCADA" .
 
 
-###  https://w3id.org/trace-cps/ontology#SecurityTeam
+###  https://w3id.org/trics/ontology#SecurityTeam
 :SecurityTeam rdf:type owl:Class ;
-              rdfs:comment "A defensive security team responsible for monitoring and protecting CPS environments." ;
+              rdfs:comment "A defensive security team responsible for monitoring and protecting ICS environments." ;
               rdfs:label "Security Team" .
 
 
-###  https://w3id.org/trace-cps/ontology#Sensor
+###  https://w3id.org/trics/ontology#Sensor
 :Sensor rdf:type owl:Class ;
         rdfs:subClassOf :CommunicatingEntity ,
                         :PerceptionLayer ;
@@ -904,7 +904,7 @@
         rdfs:label "Sensor" .
 
 
-###  https://w3id.org/trace-cps/ontology#SensorFVP
+###  https://w3id.org/trics/ontology#SensorFVP
 :SensorFVP rdf:type owl:Class ;
            rdfs:subClassOf :PerceptionLayer ,
                            :VersionPair ;
@@ -912,84 +912,84 @@
            rdfs:label "Sensor Firmware Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#Server
+###  https://w3id.org/trics/ontology#Server
 :Server rdf:type owl:Class ;
         rdfs:subClassOf :ControlLayer ;
-        rdfs:comment "A server providing computing, storage, or application services in the CPS network." ;
+        rdfs:comment "A server providing computing, storage, or application services in the ICS network." ;
         rdfs:label "Server" .
 
 
-###  https://w3id.org/trace-cps/ontology#Software
+###  https://w3id.org/trics/ontology#Software
 :Software rdf:type owl:Class ;
-          rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+          rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
           rdfs:comment "A software tool or malware used by threat actors as part of ATT&CK campaigns." ;
           rdfs:label "Software" .
 
 
-###  https://w3id.org/trace-cps/ontology#Switch
+###  https://w3id.org/trics/ontology#Switch
 :Switch rdf:type owl:Class ;
         rdfs:subClassOf :NetworkLayer ;
-        rdfs:comment "A network switch that connects devices within the same network segment of a CPS environment." ;
+        rdfs:comment "A network switch that connects devices within the same network segment of a ICS environment." ;
         rdfs:label "Switch" .
 
 
-###  https://w3id.org/trace-cps/ontology#Tactic
+###  https://w3id.org/trics/ontology#Tactic
 :Tactic rdf:type owl:Class ;
-        rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+        rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
         rdfs:comment "A high-level adversarial goal in the ATT&CK framework (e.g., Initial Access, Lateral Movement, Impact)." ;
         rdfs:label "Tactic" .
 
 
-###  https://w3id.org/trace-cps/ontology#Technique
+###  https://w3id.org/trics/ontology#Technique
 :Technique rdf:type owl:Class ;
-           rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+           rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
            rdfs:comment "A specific method or procedure used by an adversary to achieve a tactic." ;
            rdfs:label "Technique" .
 
 
-###  https://w3id.org/trace-cps/ontology#ThreatActor
+###  https://w3id.org/trics/ontology#ThreatActor
 :ThreatActor rdf:type owl:Class ;
-             rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
-             rdfs:comment "An individual, group, or organization that conducts malicious cyber operations against CPS environments." ;
+             rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
+             rdfs:comment "An individual, group, or organization that conducts malicious cyber operations against ICS environments." ;
              rdfs:label "Threat Actor" .
 
 
-###  https://w3id.org/trace-cps/ontology#Tool
+###  https://w3id.org/trics/ontology#Tool
 :Tool rdf:type owl:Class ;
-      rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+      rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
       rdfs:comment "A software tool used in offensive or defensive cyber operations." ;
       rdfs:label "Tool" .
 
 
-###  https://w3id.org/trace-cps/ontology#URL
+###  https://w3id.org/trics/ontology#URL
 :URL rdf:type owl:Class ;
-     rdfs:subClassOf <https://w3id.org/trace-cps/ontology#ATT&CK> ;
+     rdfs:subClassOf <https://w3id.org/trics/ontology#ATT&CK> ;
      rdfs:comment "A URL reference associated with an ATT&CK entity." ;
      rdfs:label "URL" .
 
 
-###  https://w3id.org/trace-cps/ontology#VersionPair
+###  https://w3id.org/trics/ontology#VersionPair
 :VersionPair rdf:type owl:Class ;
              rdfs:comment "Abstract parent class for pairs associating a device or protocol with a specific firmware or software version." ;
              rdfs:label "Version Pair" .
 
 
-###  https://w3id.org/trace-cps/ontology#Vulnerability
+###  https://w3id.org/trics/ontology#Vulnerability
 :Vulnerability rdf:type owl:Class ;
                rdfs:comment "A known security vulnerability in a software or hardware component." ;
                rdfs:label "Vulnerability" .
 
 
-###  https://w3id.org/trace-cps/ontology#Weakness
+###  https://w3id.org/trics/ontology#Weakness
 :Weakness rdf:type owl:Class ;
           rdfs:comment "A software or hardware weakness as defined in the CWE taxonomy." ;
           rdfs:label "Weakness" .
 
 
-###  https://w3id.org/trace-cps/ontology#ATT&CK
-<https://w3id.org/trace-cps/ontology#ATT&CK> rdf:type owl:Class ;
-                                             rdfs:comment "Root class for all MITRE ATT&CK framework concepts, including tactics, techniques, threat actors, campaigns, and mitigations." ;
-                                             rdfs:label "ATT&CK" .
+###  https://w3id.org/trics/ontology#ATT&CK
+<https://w3id.org/trics/ontology#ATT&CK> rdf:type owl:Class ;
+                                         rdfs:comment "Root class for all MITRE ATT&CK framework concepts, including tactics, techniques, threat actors, campaigns, and mitigations." ;
+                                         rdfs:label "ATT&CK" .
 
 
 #################################################################
@@ -1062,7 +1062,7 @@
                 :PerceptionLayer
                 :Vulnerability
                 :Weakness
-                <https://w3id.org/trace-cps/ontology#ATT&CK>
+                <https://w3id.org/trics/ontology#ATT&CK>
               )
 ] .
 

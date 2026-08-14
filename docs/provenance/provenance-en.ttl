@@ -2,7 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<https://w3id.org/trace-cps/ontology/0.1.0> a prov:Entity;
-	 dc:title "TRACE-CPS Ontology";
+<https://w3id.org/trics/ontology/0.2.0> a prov:Entity;
+	 dc:title "TrICS Ontology";
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 .
